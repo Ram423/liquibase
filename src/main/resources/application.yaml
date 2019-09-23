@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mariadb://172.31.85.50:3306/asustest
+    url: jdbc:mariadb://172.31.85.50:3306/asusgittest
     username: asus
     password: asus
     driver-class-name: org.mariadb.jdbc.Driver
