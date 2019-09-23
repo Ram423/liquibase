@@ -9,3 +9,7 @@ mobile_number integer not null,
 primary key (id)) engine=MyISAM;
 
 INSERT INTO user (first_name, last_name, mobile_number) VALUES ("f1", "l1", 1234);
+            
+--liquibase formatted sql
+--changeset ram423:v1
+INSERT INTO user (first_name, last_name, mobile_number) VALUES ("f2", "22", 5678);             
